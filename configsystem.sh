@@ -10,7 +10,7 @@ apt-get update
 
 apt-get -y upgrade
 
-apt-get -y install git-core libcrypt-ssleay-perl libwww-perl
+apt-get -y install git-core libcrypt-ssleay-perl libwww-perl bzip2
 
 
 useradd -m updatewatcher

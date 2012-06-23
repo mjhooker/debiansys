@@ -2,6 +2,6 @@ routine
 
 do buildTB.sh
 do useTBasroot.sh as root
-do doinstallupdater.sh
+do doupdates.sh
 
-do enterchrootdolistupdateable.pl.sh
+#do enterchrootdolistupdateable.pl.sh

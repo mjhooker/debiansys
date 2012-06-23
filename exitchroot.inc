@@ -1,5 +1,5 @@
 
-umount /home/mjhooker/debiansys/sys/proc
-umount /home/mjhooker/debiansys/sys/dev
+umount $HOME/debiansys/sys/proc
+umount $HOME/debiansys/sys/dev
 
 

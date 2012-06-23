@@ -4,14 +4,11 @@
 LANG=C
 export lang
 
-echo "deb http://security.debian.org/ lenny/updates main" > /etc/apt/sources.list.d/security.list
+echo $1 > /etc/apt/sources.list.d/security.list
+echo $2 >> /etc/apt/sources.list.d/security.list
 
 apt-get update
 
 apt-get -y upgrade
 
-apt-get -y install git-core libcrypt-ssleay-perl libwww-perl bzip2
-
-
-useradd -m updatewatcher
 

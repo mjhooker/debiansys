@@ -1,3 +1,5 @@
 #!/bin/bash
 
-debootstrap --unpack-tarball=/home/mjhooker/debiansys/TB.tgz --verbose lucid sys
+source ~/debiansys/vars.inc
+
+debootstrap --unpack-tarball=$HOME/debiansys/TB.tgz --verbose $RELEASE sys

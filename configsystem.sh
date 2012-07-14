@@ -2,7 +2,7 @@
 
 
 LANG=C
-export lang
+export LANG
 
 echo $1 > /etc/apt/sources.list.d/security.list
 echo $2 >> /etc/apt/sources.list.d/security.list

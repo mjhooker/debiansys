@@ -1,3 +1,0 @@
-#/bin/bash
-
-git push git@github.com:mjhooker/debiansys.git ubuntu

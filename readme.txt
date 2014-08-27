@@ -18,3 +18,9 @@ load updates
 use chroot enivronment
 
 ./enterchroot.sh
+
+
+remove temporary files (be careful where this is run from)
+
+./clean.sh
+

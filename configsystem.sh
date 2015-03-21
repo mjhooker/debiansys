@@ -4,7 +4,7 @@
 LANG=C
 export lang
 
-echo "deb http://security.debian.org/ lenny/updates main" > /etc/apt/sources.list.d/security.list
+echo "deb http://security.debian.org/ stable/updates main" > /etc/apt/sources.list.d/security.list
 
 apt-get update
 
